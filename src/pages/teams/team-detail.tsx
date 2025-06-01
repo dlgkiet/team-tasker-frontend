@@ -30,6 +30,7 @@ import {
     DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import Layout from "../../components/layouts";
+import { useNavigate } from "react-router-dom";
 
 // Mock data based on the database schema
 const teamData = {
@@ -215,6 +216,8 @@ function getStatusIcon(status: string) {
 }
 
 export default function TeamDetail() {
+    const navigate = useNavigate();
+    
     return (
         <Layout>
             <div className="container mx-auto p-6 space-y-6">
@@ -565,6 +568,9 @@ export default function TeamDetail() {
                                         <Button
                                             className="w-full"
                                             variant="outline"
+                                            onClick={() =>
+                                            navigate(`/projects/${project.id}`)
+                                        }
                                         >
                                             View Project
                                         </Button>
