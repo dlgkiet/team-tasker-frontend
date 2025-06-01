@@ -50,8 +50,8 @@ Mọi đóng góp đều được chào đón! Vui lòng tạo issue hoặc pull
 
 ## Liên hệ
 
-- Email: your-email@example.com
-- GitHub: [@your-username](https://github.com/your-username)
+- Email: kietdlg@gmail.com
+- GitHub: [dlgkiet](https://github.com/dlgkiet)
 
 ## License
 
